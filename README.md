@@ -58,3 +58,35 @@ h1 {
 .buy-link:hover {
   background-color: #218838;
 }
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Обзоры товаров</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Обзоры популярных товаров</h1>
+    <div class="product-list">
+      <div class="product">
+        <h2>Смартфон XYZ</h2>
+        <p>Этот смартфон оснащен отличной камерой и мощным процессором. Идеален для любителей технологий!</p>
+        <a href="https://example.com/smartphone" class="buy-link" target="_blank">Купить через партнерскую ссылку</a>
+      </div>
+      <div class="product">
+        <h2>Ноутбук ABC</h2>
+        <p>Мощный ноутбук для работы и развлечений. Легкий и с хорошей батареей.</p>
+        <a href="https://example.com/laptop" class="buy-link" target="_blank">Купить через партнерскую ссылку</a>
+      </div>
+      <div class="product">
+        <h2>Наушники DEF</h2>
+        <p>Отличные наушники с шумоподавлением. Идеальны для прослушивания музыки или работы в шумных местах.</p>
+        <a href="https://example.com/headphones" class="buy-link" target="_blank">Купить через партнерскую ссылку</a>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
